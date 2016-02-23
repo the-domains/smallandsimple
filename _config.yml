@@ -2,6 +2,7 @@ name: smallandsimple
 favicon: null
 layout_spectrum: 0.20877882232889533
 typography_spectrum: 0.08200577949173748
+title: 'Small & Simple Things'
 cta:
   domain: null
   bucket: null
