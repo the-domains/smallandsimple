@@ -1,29 +1,41 @@
-name: smallandsimple
-favicon: null
-layout_spectrum: 0.20877882232889533
-typography_spectrum: 0.08200577949173748
-title: 'Small & Simple Things'
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+title: Small & Simple Things
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.1893617
+  brandStrength: 0.5021276
+  lightness: 0.6875
   brandColors:
     - '#ffffff'
     - '#501022'
     - '#c9009d'
     - '#9a3328'
     - '#b39d9f'
-  brandStrength: 0.5
-  lightness: 0.6875
-  saturation: 0.0625
   rhythmicContrast: 1
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: smallandsimple
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.6446809
+layout_spectrum: 1
